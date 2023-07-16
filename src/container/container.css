@@ -1,0 +1,83 @@
+.footer{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 6.2rem;
+    background-color: #161616;
+    color: #AAAAAA;
+    font-weight: 500;
+}
+
+.nav-bar {
+    display: flex;
+    background-color: #fff7ed;
+    
+    height: 8rem;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  #logo {
+    margin-right: auto;
+    
+    
+    
+   
+  }
+  
+  #homeimg {
+    height: 1.7rem;
+    width: 10rem;
+   
+   
+  }
+  
+  #logo:hover {
+    color: black;
+   
+    box-shadow: inset 0 -2px 0 0 rgb(0, 0, 0); 
+    
+     
+  }
+  
+  .links {
+    
+    font-size: larger;
+  
+    color: black;
+  }
+  
+  .links:hover {
+    color: black;
+    text-decoration: underline;
+  
+  
+  }
+  
+  .nav-bar{
+  
+    display:flex;
+    gap: 2rem;
+  
+  }
+
+  .userlogo{
+
+      height: 1.25rem;
+      margin-top: 8px;
+      align-self: center;
+     
+
+
+  }
+
+
+  .host-nav{
+
+    padding-bottom: 2rem;
+
+  }
+  

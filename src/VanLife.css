@@ -1,0 +1,101 @@
+.van-tile {
+  background-color: #fff7ed;
+  display: flex;
+  min-height: auto;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.vanlist {
+  background-color: #fff7ed;
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding-top: 2rem;
+  padding-left: 2rem;
+}
+
+.van-type {
+  height: 34px;
+  padding: 6px 26px;
+  font-style: normal;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffead0;
+  color: #4d4d4d;
+  transition: 200ms all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.van-tile img {
+  max-width: 30rem;
+}
+.van-info {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+    
+  height: 5.5rem;
+  color: black;
+  flex-direction: column;
+  
+  align-content: space-between;
+  justify-content: space-between;
+ 
+}
+
+.van-type:hover {
+  color: #ffead0;
+}
+
+.van-type:focus {
+  outline: none;
+}
+
+.van-type.selected {
+  color: #ffead0;
+}
+
+.van-type.simple:hover,
+.van-type.simple.selected {
+  background-color: #e17654;
+}
+
+.van-type.rugged:hover,
+.van-type.rugged.selected {
+  background-color: #115e59;
+}
+
+.van-type.luxury:hover,
+.van-type.luxury.selected {
+  background-color: #161616;
+}
+
+.van-list-container button {
+  margin-right: 20px;
+  cursor: pointer;
+}
+.van-list-filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.van-list-container {
+  background-color: #fff7ed;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-left: 2rem;
+  padding-bottom: 5rem;
+}
+.van-list-container h1{
+    color: #161616;
+
+}
+
+.van-info h3,p{
+    font-size: larger;
+
+}

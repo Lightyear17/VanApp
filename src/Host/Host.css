@@ -1,0 +1,56 @@
+.host-van-info{
+
+    margin-top: 2rem;
+    margin-left: 2rem;
+    flex-direction: column;
+    display: flex;
+    gap: 2rem;
+    text-align: start;
+
+}
+
+.host-van-info span{
+
+    font-weight:lighter;
+    flex-wrap: wrap;
+    
+
+}
+
+.host-van-pricing{
+
+    margin-top: 2rem;
+    margin-left: 2rem;
+    padding-bottom: 2rem;
+    text-align: start;
+}
+
+.host-van-pricing span{
+
+    font-weight:lighter;
+    flex-wrap: wrap;
+}
+
+.host-van-photo{
+
+    margin-top: 2rem;
+    margin-left: 2rem;
+    padding-bottom: 2rem;
+    text-align: start;
+}
+
+.host-van-photo img{
+
+    height: 10rem;
+    width: 10rem;
+
+    
+}
+
+
+
+
+
+
+
+
